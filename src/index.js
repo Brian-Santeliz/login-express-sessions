@@ -14,6 +14,8 @@ app.use(
     secret: "secret",
     resave: true,
     saveUninitialized: true,
+    cookie: { secure: true },
+
     //crear la parte de expiracion
   })
 );
